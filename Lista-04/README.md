@@ -1,4 +1,4 @@
-# Exercises:
+# Pratical Exercises:
 
 ### 2) Implemente um programa que leia um potênciometro e converta o valor lido do ADC em tensão. (Lembrando que a alimentação do microcontrolador é de 3.3V)
 
