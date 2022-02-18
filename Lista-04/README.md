@@ -1,4 +1,20 @@
-# Exercises:
+# Exercises: 
+
+### 1) Um determinado projeto de refrigerador utiliza um sensor de temperatura con dicionado a trabalhar de -75ºC até 5ºC (0V à VDD), este refrigador implementa um PID que é alimentado por este sensor de temperatura. Como requisito, a precisão da temperatura medida deve ser de 0,02ºC. Dado a condição, calcule a resolução mínima do ADC que atenda ao requisito do projeto.
+
+Resolução = Delta V/(2^bits -1) <br>
+0,02 = 5-(-75)/2^n-1 <br>
+0,02 = 80/2^n-1 <br>
+2^n-1 = 80/0,02 <br>
+2^n-1 = 4000 <br>
+2^n = 4001 <br>
+Log2 4001 = n <br>
+n = Log4001/log2 <br>
+n =~ 12
+
+<br>
+
+# Pratical Exercises:
 
 ### 2) Implemente um programa que leia um potênciometro e converta o valor lido do ADC em tensão. (Lembrando que a alimentação do microcontrolador é de 3.3V)
 
