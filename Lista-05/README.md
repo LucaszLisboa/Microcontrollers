@@ -16,4 +16,8 @@
 
 <br>
 
+### 5) Conecte a interface serial de seu kit com do colega ao lado, e realize a troca de informações com os dois kits. A troca de informações podem ser textos e deve partir dos dois microconrtoladores e recebido por ambos.
+
+<br>
+
 ### 7) Challenge: Monte na protoboard 4 potenciômetros e elabore um programa que envia periodicamente pela serial os valores dos 4 potenciômetros lidos, em termos de tensão. A mensagem pode ser formatada como uma string, onde pode ser enviado os 4 valores de uma vez.
